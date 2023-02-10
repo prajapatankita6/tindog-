@@ -1,0 +1,139 @@
+body{ 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1,h2,h3,h4,h4,h5,h6{ font-family: 'Montserrat', sans-serif;}
+p{color: #8f8f8f;}
+/* heading */
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.section-headind{
+    font-size: 2rem;
+    line-height: 1.4;
+}
+#title{
+    text-align: left;
+}
+    /* sevtion */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+.white-section{
+    background-color: #fff;
+}
+/********navigation bar******/
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;}
+.navbar{ padding-bottom:4.5rem;
+    }
+.nav-item{padding: 0 18px;}
+.nav-link{
+        font-size: 1.2rem;
+        font-family: "montserrat-light";
+    }
+    /*****download button****/
+.download-button{margin: 5% 3% 5% 0;
+    } 
+    /* containers */
+.container-fluid{
+    padding: 7% 15%}
+    /***title image****/
+ #title .container-fluid{
+    padding: 3% 15% 7%;
+}
+.title-image{
+        width: 22%;
+        transform: rotate(25deg);
+        right: 20%;
+        position: absolute;
+    }
+p{color: #8f8f8f;}
+   /***font-awesome*********/
+.check-circle{
+    color: #ef8172;
+    padding: 5%;
+    margin-bottom: 1rem;
+   }
+.check-circle:hover{
+    color: #ff4c68;
+   }
+   /*****features******/
+#features{      
+    position: relative;
+}
+.feature-title{
+    font-size: 1.5rem;
+   }
+   /********testimonials*************/
+.testimonial-text{
+    font-size: 2rem;
+    line-height: 1.5;
+   }
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-inner{
+    font-family:'Montserrat', sans-serif ;
+    color: #fff;
+    font-size: 1.56rem;
+    line-height: 1.5;
+}
+/* containers */
+.container-fluid{
+padding: 7% 15%}
+
+.dog{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    color: #fff;
+}
+/********press******/
+#press{
+    padding-bottom: 3%;
+    background-color: #ef8172;   
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+/* pricing */
+.price-text{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+#pricing{
+    padding: 50px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.card-header{
+    background-color: #D3D3D3;
+}
+/*  */
+@media(max-width:1028px) {
+    #title{
+        text-align: center;   
+    }    
+.title-image{ 
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+   } 
+}
+/* footer */
+#cta{
+    padding: 7% 15% 50px;
+    padding-top: 20px;
+}
+.social-icon{ margin: 20px 10px;}
+
